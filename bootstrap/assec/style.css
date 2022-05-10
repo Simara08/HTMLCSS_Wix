@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* .test{
+    height:350px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 25px;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
