@@ -1,0 +1,85 @@
+.summary .comment {
+  width: 600px;
+}
+
+.info {
+  font-family: "Arial", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.info a {
+  color: black;
+  text-decoration: none;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+}
+
+.info .info-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info .info-image_item {
+  margin: 25px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .summary h2 {
+    font-size: 50px;
+  }
+  .summary p {
+    font-size: 25px;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .summary h2 {
+    font-size: 25px;
+    width: 540px;
+  }
+  .summary p {
+    font-size: 12.5px;
+    width: 540px;
+  }
+  .info h3 {
+    font-size: 25px;
+    width: 540px;
+  }
+  .info p {
+    font-size: 12.5px;
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .summary h2 {
+    font-size: 25px;
+    width: 480px;
+  }
+  .summary p {
+    font-size: 12.5px;
+    width: 480px;
+  }
+  .info h3 {
+    font-size: 25px;
+    width: 480px;
+  }
+  .info p {
+    font-size: 12.5px;
+    width: 480px;
+  }
+  .info .img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
